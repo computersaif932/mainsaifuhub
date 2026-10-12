@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #0f161e;
+}
+
+/* BOX 1 */
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    color: red;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.panel-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+/* BUTTON */
+
+.button {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.panel-button {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: yellowgreen;
+}
+
+.panel-button a {
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.border-line {
+    margin-top: 10px;
+    border-top: 0.1px solid white;
+}
+
+/* MAIN */
+
+.main {
+    width: 90%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 25px auto;
+    border-radius: 25px;
+    background-image: url("loki.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* FOOTER */
+
+.footer-border {
+    margin-top: 25px;
+    border-top: 0.1px solid white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: px;
+    color: white;
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 768px) {
+    .logo h1 {
+        font-size: 1.8rem;
+    }
+
+    .panel-heading h2 {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .panel-button {
+        height: 50px;
+    }
+
+    .panel-button a {
+        font-size: 18px;
+    }
+
+    .main {
+        height: 260px; /* Mobile par banner image ki height shrink ho jayegi */
+    }
+}
