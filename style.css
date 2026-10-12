@@ -116,6 +116,10 @@ body {
         height: 260px; /* Mobile par banner image ki height shrink ho jayegi */
     }
 
+    .footer-border {
+        height: 25px;
+    }
+
     .copyright {
         height: 25px;
         width: 100%;
