@@ -82,7 +82,6 @@ body {
 /* FOOTER */
 
 .footer-border {
-    margin-top: 25px;
     border-top: 0.1px solid white;
 }
 
@@ -90,8 +89,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    margin-top: px;
+    height: 10px;
     color: white;
 }
 
@@ -116,5 +114,9 @@ body {
 
     .main {
         height: 260px; /* Mobile par banner image ki height shrink ho jayegi */
+    }
+
+    .copyright {
+        width: 100%;
     }
 }
